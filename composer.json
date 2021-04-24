@@ -1,0 +1,19 @@
+{
+    "name": "brryfrmnn/transformers",
+    "type": "library",
+    "description": "Json transformer.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Berry Firmann",
+            "email": "clickdisini@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Brryfrmnn\\Transformers\\": "src/"
+        }
+    }
+ 
+}
