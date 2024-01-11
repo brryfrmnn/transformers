@@ -9,11 +9,14 @@
             "email": "clickdisini@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "*",
+        "illuminate/pagination": "*",
+        "illuminate/http": "*"
+    },
     "autoload": {
         "psr-4": {
             "Brryfrmnn\\Transformers\\": "src/"
         }
     }
- 
 }
