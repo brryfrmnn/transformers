@@ -29,7 +29,7 @@ class Json
             $pagination = $data->toArray();
             $result['meta']['total'] = $data->total();
             $result['meta']['per_page'] = $data->perPage();
-            $result['meta']['current_page'] = $data->currentpage();
+            $result['meta']['current_page'] = $data->currentPage();
             $result['meta']['last_page'] = $data->lastPage();
             $result['meta']['from'] = $pagination['from'];;
             $result['meta']['to'] = $pagination['to'];
