@@ -18,5 +18,13 @@
         "psr-4": {
             "Brryfrmnn\\Transformers\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brryfrmnn\\Transformers\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
