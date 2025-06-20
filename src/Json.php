@@ -4,7 +4,7 @@ namespace Brryfrmnn\Transformers;
 
 
 /**
- *  Class Json is transformers from raw data to json view
+ *  Class Json transforms raw data into a JSON response.
  */
 class Json
 {
